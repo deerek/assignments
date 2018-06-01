@@ -1,0 +1,38 @@
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkgreen;
+    text-align: center;
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+p {
+    line-height: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/** 
+li {
+    list-style: none;
+}
+**/
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    float: left;
+    margin: 0 25px 25px;
+}
+
+.recommendation-label {
+    font-weight: bold;
+    text-transform: uppercase;
+}
