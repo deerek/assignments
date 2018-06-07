@@ -1,0 +1,71 @@
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.flag {
+    width: 600px;
+    height: 400px;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+/* FRANCE */
+
+.france1 {
+    background-color: blue;
+    width: 30%;
+    height: 100%;
+    display: inline-block;
+}
+
+.france2 {
+    background-color: white;
+    width: 30%;
+    height: 100%;
+    display: inline-block;
+}
+
+.france3 {
+    background-color: red;
+    width: 30%;
+    height: 100%;
+    display: inline-block;
+}
+
+.germany1 {
+    background-color: black;
+    height: 30%;
+    width: 100%;
+}
+
+.germany2 {
+    background-color: red;
+    height: 30%;
+    width: 100%;
+}
+
+.germany3 {
+    background-color: yellow;
+    height: 30%;
+    width: 100%;
+}
+
+.madagascar1 {
+    background-color: white;
+    height: 100%;
+    width: 30%;
+}
+
+.madagascar2 {
+    background-color: red;
+    height: 50%;
+    width: 30%;
+}
+
+.madagascar3 {
+    background-color: green;
+    height: 50%;
+    width: 30%;
+}
+

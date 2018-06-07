@@ -1,0 +1,9 @@
+#square {
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+}

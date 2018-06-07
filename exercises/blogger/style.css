@@ -1,0 +1,94 @@
+* {
+    font-size: 0;
+    margin: 0;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    height: 75px;
+    background-color: #fff;
+    z-index: 100;
+}
+
+.nav-content-left {
+    display: inline-block;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.nav-content-right {
+    display: inline-block;
+    width: 50%;
+    text-align: right;
+    float: right;
+    padding: 25px;
+}
+
+.nav-title {
+    display: inline-block;
+    width: 200px;
+    margin: 0 auto;
+    font-size: 24pt;
+}
+
+.nav-content-right a {
+    font-size: 14pt;
+    font-family: sans-serif;
+    font-weight: 600;
+    padding: 0 10px;
+    color: aquamarine;
+    text-decoration: none;
+}
+
+section {
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+.blog-post-wrapper {
+    padding-top: 75px;
+    height: 50%;
+}
+
+.post-image {
+    width: 50%;
+    margin: 0;
+    display: inline-block;
+    max-height: 50%;
+    overflow: hidden;
+}
+
+.post-image img {
+    max-width: 100%;
+}
+
+.post-text {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.post-text h1 {
+    position: relative;
+    right: 100px;
+    font-family: sans-serif;
+    font-size: 48pt;
+    padding-bottom: 20px;
+}
+
+.post-text h6 {
+    font-family: sans-serif;
+    font-size: 12pt;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-left: 30px;
+    padding-bottom: 10px;
+}
+
+.post-text p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14pt;
+    margin-left: 30px;
+}
