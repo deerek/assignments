@@ -1,13 +1,24 @@
-body {
+html {
     width: 100%;
     height: 100%;
 }
 
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: #aaa;
+}
+
+* {
+    margin: 0;
+}
+
 .flag {
-    width: 600px;
+    width: 800px;
     height: 400px;
     display: inline-block;
-    margin-bottom: 30px;
+    margin: 0;
 }
 
 /* FRANCE */
@@ -51,21 +62,229 @@ body {
     width: 100%;
 }
 
+
+.madagascar {
+    display: inline-block;
+}
+
 .madagascar1 {
     background-color: white;
-    height: 100%;
-    width: 30%;
+    height: 400px;
+    width: 300px;
+    display: inline-block;
+    float: left;
 }
 
 .madagascar2 {
     background-color: red;
-    height: 50%;
-    width: 30%;
+    height: 200px;
+    width: 500px;
+    display: inline-block;
+    float: right;
 }
 
 .madagascar3 {
     background-color: green;
-    height: 50%;
-    width: 30%;
+    height: 200px;
+    width: 500px;
+    display: inline-block;
+    float: right;
 }
 
+.switzerland {
+    width: 400px;
+    height: 400px;
+    background-color: red;
+}
+
+.switzerland-vert {
+    width: 100px;
+    height: 200px;
+    background-color: #fff;
+    position: relative;
+    left: 150px;
+    top: 100px;
+}
+
+.switzerland-horiz {
+    width: 200px;
+    height: 100px;
+    background-color: #fff;
+    position: relative;
+    left: 100px;
+    bottom: 50px;
+}
+
+.sweden {
+    width: 600px;
+    height: 400px;
+    background-color: rgb(22, 66, 163);
+}
+
+.sweden-vert {
+    width: 50px;
+    height: 400px;
+    background-color: rgb(219, 190, 26);
+    margin-left: 200px;
+}
+
+.sweden-horiz {
+    width: 600px;
+    height: 50px;
+    background-color: rgb(219, 190, 26);
+    position: relative;
+    bottom: 225px;
+}
+
+.gambia1 {
+    background-color: rgb(146, 9, 9);
+    height: 30%;
+    width: 100%;
+}
+
+.gambia2 {
+    background-color: rgb(0, 2, 104);
+    height: 30%;
+    width: 100%;
+    border-top: 15px solid #fff;
+    border-bottom: 15px solid #fff;
+    box-sizing: border-box;
+}
+
+.gambia3 {
+    background-color: rgb(9, 43, 9);
+    height: 30%;
+    width: 100%;
+}
+
+.tonga {
+    width: 600px;
+    height: 400px;
+    background-color: rgb(116, 8, 8);
+}
+
+.tonga-vert {
+    width: 25px;
+    height: 100px;
+    background-color: rgb(116, 8, 8);
+    position: relative;
+    left: 135px;
+    top: 50px;
+    z-index: 1;
+}
+
+.tonga-horiz {
+    width: 100px;
+    height: 25px;
+    background-color: rgb(116, 8, 8);
+    position: relative;
+    left: 98px;
+    bottom: 13px;
+    z-index: 1;
+}
+
+.tonga-block {
+    width: 300px;
+    height: 200px;
+    background-color: #fff;
+    float: left;
+    clear: both;
+    z-index: 0;
+}
+
+.japan {
+    background-color: #fff;
+}
+
+.japan-circle {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(161, 14, 14);
+    border-radius: 50%;
+    margin: 100px auto;
+    vertical-align: middle;
+}
+
+.greece {
+    margin-bottom: 100px;
+}
+
+.greece-blue {
+    height: 50px;
+    background-color: rgb(24, 52, 179);
+}
+
+.greece-white {
+    height: 50px;
+    background-color: #fff;
+}
+
+.greece-corner {
+    width: 250px;
+    height: 250px;
+    background-color: rgb(24, 52, 179);
+    float: left;
+}
+
+.greece-vert {
+    width: 50px;
+    height: 250px;
+    background-color: #fff;
+    position: relative;
+    left: 100px;
+}
+
+.greece-horiz {
+    height: 50px;
+    width: 250px;
+    background-color: #fff;
+    position: relative;
+    bottom: 150px;
+}
+
+.niger1 {
+    background-color: rgb(202, 54, 9);
+    height: 200px;
+    width: 100%;
+}
+
+.niger2 {
+    background-color: #fff;
+    height: 200px;
+    width: 100%;
+}
+
+.niger3 {
+    background-color: rgb(9, 134, 9);
+    height: 200px;
+    width: 100%;
+}
+
+.niger-circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: rgb(202, 54, 9);
+    margin: -375px auto;
+}
+
+.maldives {
+    margin-top: 200px;
+    background-color: rgb(145, 0, 48);
+}
+
+.maldives1 {
+    width: 400px;
+    height: 200px;
+    background-color: rgb(4, 51, 16);
+    margin: 100px auto;
+}
+
+.maldives-crescent {
+    background-color: transparent;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: inset 12px 0px 0 3px #fff;
+    margin: -250px auto;
+}
