@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:700|Open+Sans:300, 500" rel="stylesheet">
+</head>
+<body>
+
+    <div class="top-div">
+        <h1 class="main-title">Plan your next trip</h1>
+    </div>
+
+    <div class="middle-div">
+
+        <div class="form-div">
+
+            <form id="travelForm">
+
+                <div class="input-destination">
+                    <h3 class="section-label">Where to?</h3>
+                    <select name="destination">
+                            <option value="losAngeles">Los Angeles</option>
+                            <option value="tokyo">Tokyo</option>
+                            <option value="budapest">Budapest</option>
+                            <option value="iceland">Iceland</option>
+                        </select>
+                </div>
+
+                <div class="personal-info">
+                    <h3 class="section-label">Personal Info</h3>
+                    <label for="peanuts">First Name</label>
+                    <input class="text-inputs" type="text" placeholder="First name" name="firstName">
+                    <label for="peanuts">Last Name</label>
+                    <input class="text-inputs" type="text" placeholder="Last name" name="lastName">
+                    <label for="peanuts">Age</label>
+                    <input class="text-inputs" type="number" placeholder="Age" name="age">
+
+                    
+                </div>
+
+                <div class="more-info">
+                    <h3 class="section-label">More info</h3>
+                    <label for="gender">Gender:</label>
+                    <input type="radio" name="gender" value="male">
+                    <label for="peanuts">Male</label>
+                    <input type="radio" name="gender" value="female">
+                    <label for="kosher">Female</label>
+                    <input type="radio" name="gender" value="non-binary">
+                    <label for="vegan">Non-Binary</label>
+                
+                    <label for="dietaryRestrictions">Dietary Restrictions:</label>
+                    <input type="checkbox" name="dietaryRestrictions" value="peanuts">
+                    <label for="peanuts">Peanuts</label>
+                    <input type="checkbox" name="dietaryRestrictions" value="kosher">
+                    <label for="kosher">Kosher</label>
+                    <input type="checkbox" name="dietaryRestrictions" value="vegan">
+                    <label for="vegan">Vegan</label>
+                </div>
+
+                <button type="submit">Submit</button>
+
+            </form>
+        </div>
+
+
+        </div>
+    
+
+    <script src="main.js"></script>
+</body>
+</html>
+
+
+
+<li><label>Full Name <span class="required">*</span></label><input type="text" name="field1" class="field-divided" placeholder="First" />&nbsp;<input type="text" name="field2" class="field-divided" placeholder="Last" /></li>

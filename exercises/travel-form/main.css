@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    overflow: hidden;
+}
+
+.top-div {
+    height: 30%;
+    background-color: #233A63;
+}
+
+.main-title {
+    color: #fff;
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 64pt;
+    text-transform: uppercase;
+}
+
+.middle-div {
+    background-image: url(../images/airplane.jpg);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #247BA0;
+    height: 80%;
+}
+
+.form-div {
+    width: 50%;
+    min-height: 200px;
+    padding: 30px;
+    margin: 0 auto;
+    position: relative;
+    top: -100px;
+    background-color: #EAF7FC;
+    border-radius: 24px;
+    -webkit-box-shadow: 0px 20px 50px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 0px 20px 50px 0px rgba(0,0,0,0.25);
+    box-shadow: 0px 20px 50px 0px rgba(0,0,0,0.25);
+}
+
+.text-inputs {
+    border: none;
+    height: 25px;
+    padding-left: 8px;
+    background-color: #1F363D;
+    color: #fff;
+}
+
+.text-inputs:focus {
+    box-sizing: border-box;
+    outline: none;
+    -webkit-box-shadow: 0px 4px 8px 0px rgba(39,10,66,0.2)!important;
+    -moz-box-shadow: 0px 4px 8px 0px rgba(39,10,66,0.2)!important;
+    box-shadow: 0px 4px 8px 0px rgba(39,10,66,0.2)!important;
+}
+
+.input-destination {
+    margin-bottom: 24px;
+}
+
+.personal-info {
+    margin-bottom: 24px;
+}
+
+.more-info {
+    margin-bottom: 24px;
+}
+
+.section-label {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 18pt;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    border-bottom: .5px solid #21212148;
+}
+
+select {
+    border-radius: 0;
+    border: none;
+    width: 200px;
+    height: 24px;
+    background-color: #1F363D;
+    color: #fff;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+  }
+  ::-moz-placeholder { /* Firefox 19+ */
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+  }
+  :-ms-input-placeholder { /* IE 10+ */
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+  }
+  :-moz-placeholder { /* Firefox 18- */
+    color: #FFF;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  button {
+      background-color: #52B788;
+      border: none;
+      padding: 16px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 500;
+      font-size: 12pt;
+      text-transform: uppercase;
+      color: #fff;
+      cursor: pointer;
+      border-radius: 8px;
+  }
+
+  button:hover {
+      background-color: #16B76C;
+    box-sizing: border-box;
+    -webkit-box-shadow: 0px 8px 16px 0px rgba(10,64,12,0.3);
+    -moz-box-shadow: 0px 8px 16px 0px rgba(10,64,12,0.3);
+    box-shadow: 0px 8px 16px 0px rgba(10,64,12,0.3);
+  }
