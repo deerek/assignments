@@ -1,0 +1,45 @@
+.heroComponent {
+    margin-bottom: 50px;
+    border-radius: 24px;
+    overflow: hidden;
+    width: 60%;
+    margin: 0 auto 60px;
+    -webkit-box-shadow: 0px 36px 72px 0px rgba(7, 35, 124, 0.2);
+    -moz-box-shadow: 0px 36px 72px 0px rgba(7, 35, 124, 0.2);
+    box-shadow: 0px 36px 72px 0px rgba(7, 35, 124, 0.2);
+    transform: scale(1);
+    transition: .5s;
+}
+
+.heroComponent:hover {
+    -webkit-box-shadow: 0px 18px 36px 0px rgba(7, 35, 124, 0.5);
+    -moz-box-shadow: 0px 18px 36px 0px rgba(7, 35, 124, 0.5);
+    box-shadow: 0px 18px 36px 0px rgba(7, 35, 124, 0.5);
+    cursor: pointer;
+    transform: scale(.95);
+    transition: .5s;
+}
+
+.heroImageContainer {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.heroImageContainer > img {
+    width: 100%;
+    height: auto;
+}
+
+.infoBox {
+    padding: 10px 32px 30px;
+}
+
+.infoBox h1 {
+    margin: 10px 0;
+}
+
+.infoBox h2 {
+    margin: 0;
+    font-style: italic;
+}

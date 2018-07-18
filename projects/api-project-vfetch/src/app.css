@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+}
+
+/**************************     HEADER STUFF    *************************/
+.headerWrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 50px;
+    align-items: center;
+}
+
+.headerWrapper > h1 {
+    font-family: 'Knewave', cursive;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.headerWrapper > div > a {
+    font-family: Open Sans, sans-serif;
+    color: #000;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+
+/***************************      VENUE STUFF      *****************************/
+
+.venueList {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2%;
+    padding: 0 2%;
+    margin-bottom: 100px;
+}
+
+.venueCard {
+    margin-bottom: 60px;
+    -webkit-box-shadow: 0px 20px 50px 0px rgba(48,13,48,0.2);
+    -moz-box-shadow: 0px 20px 50px 0px rgba(48,13,48,0.2);
+    box-shadow: 0px 20px 50px 0px rgba(48,13,48,0.2);
+    border-radius: 24px;
+    overflow: hidden;
+    transition: ease-in-out 1s;
+}
+
+.venueCard:hover {
+    -webkit-box-shadow: 0px 15px 30px 0px rgba(48,13,48,0.2);
+    -moz-box-shadow: 0px 15px 30px 0px rgba(48,13,48,0.2);
+    box-shadow: 0px 15px 30px 0px rgba(48,13,48,0.2);
+    border-radius: 24px;
+    overflow: hidden;
+    transition: ease-in-out .5s;
+    transform: scale(.98);
+    cursor: pointer;
+}
+
+.venueCardImg {
+    min-width: 400px;
+    min-height: 400px;
+    background-image: url('https://source.unsplash.com/1600x900/?food,coffee,beer,alcohol,bars,parks,friends,restaurant');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+}
+
+.venueCard h2 {
+    margin: 20px 0 10px;
+    font-family: 'Knewave', cursive;
+    padding-left: 25px;
+    letter-spacing: .05em;
+}
+
+.venueCard h4 {
+    margin: 0 0 10px;
+    padding-left: 25px;
+    font-family: Open Sans, sans-serif;
+    font-weight: 700;
+}
+
+.venueCard h5 {
+    margin: 0;
+    padding-left: 25px;
+    font-family: Open Sans, sans-serif;
+    font-weight: 400;
+}
+
+.faveButtonContainer {
+    margin: 15px 0 25px;
+    padding-left: 21px;
+}
+
+.faveButtonContainer > button {
+    width: 100px;
+    height: 40px;
+    background-color:  #fff;
+    border: 2px solid rgb(245, 7, 78);
+    color: rgb(245, 7, 78);
+    border-radius: 8px;
+    font-family: Open Sans;
+    font-weight: 800;
+    transition: ease-in-out .5s;
+}
+
+.faveButtonContainer > button:hover {
+    transform: scale(1.1);
+    transition: ease-in-out .5s;
+    cursor: pointer;
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(48,13,48,0.2);
+    -moz-box-shadow: 0px 5px 10px 0px rgba(48,13,48,0.2);
+    box-shadow: 0px 5px 10px 0px rgba(245, 7, 78,0.2);
+    background-color: rgb(245, 7, 78);
+    color: #fff;
+}
+
+.faveButtonContainer > button:active {
+    transition: ease-in-out .5s;
+    -webkit-box-shadow: 0px 5px 10px 0px rgba(245, 7, 78,0.2);
+    -moz-box-shadow: 0px 5px 10px 0px rgba(245, 7, 78,0.2);
+    box-shadow: 0px 5px 15px 0px rgba(245, 7, 78,0.4);
+    background-color: rgb(245, 7, 78);
+    color: #fff;
+}
+
+.homeTitle {
+    font-size: 36pt;
+    text-align: center;
+    font-family: Open Sans, sans-serif;
+    padding: 180px 0 50px;
+}
+
+
+
+
+/*********************** SEARCH STUFF **********************/
+
+.searchWrapper {
+    height: 500px;
+    background: url('https://source.unsplash.com/1600x900/?fun,friends');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.searchWrapper > h1 {
+    color: #fff;
+    font-family: 'Knewave', cursive;
+    font-size: 8vw;
+    padding: 0 10%;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-shadow: 0px 15px 30px rgba(38, 12, 54, 0.322);
+    text-align: center;
+    position: absolute;
+    top: 160px;
+}
+
+.searchForm {
+    position: relative;
+    top: 460px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.searchForm > input {
+    width: 100%;
+    height: 80px;
+    margin: 0 auto;
+    border: 0;
+    border-radius: 16px;
+    background-color: #fff;
+    padding: 0 5%;
+    font-size: 24pt;
+    font-family: Open Sans;
+    font-weight: 800;
+    text-align: center;
+    box-shadow: 0px 15px 30px 0px rgba(48,13,48,0.2);
+}
+
+.searchForm > h6 {
+    width: 50%;
+    margin: 35px auto;
+    background-color: chartreuse;
+    padding: 20px 25px;
+    text-align: center;
+    color: #fff;
+    font-family: Open Sans, sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 18pt;
+    transition: ease-in-out .3s;
+}
+
+.searchForm > h6:hover {
+    cursor: pointer;
+    border-radius: 15px;
+    transition: ease-in-out .3s;
+    box-shadow: 0px 10px 20px 0px rgba(0, 255, 13, 0.2);
+    transform: scale(1.1);
+}
+
+
+
+/***********************    MEDIA QUERIES    ***********************/
+
+@media screen and (max-width: 1200px) {
+    .venueList {
+        grid-template-columns: repeat(2, 1fr); 
+        transition: ease-in-out 1s;
+    }
+    .searchWrapper > h1 {
+        position: absolute;
+        top: 240px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .venueList {
+        grid-template-columns: 1fr; 
+    }
+
+    .searchForm {
+    position: relative;
+    top: 460px;
+    width: 80%;
+    margin: 0 auto;
+}
+}
+
