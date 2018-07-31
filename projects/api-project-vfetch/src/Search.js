@@ -1,6 +1,10 @@
 import React, { Component } from 'react'
 import './app.css';
 
+import styled from 'styled-components';
+
+
+
  class Search extends Component {
     constructor(props) {
         super(props);

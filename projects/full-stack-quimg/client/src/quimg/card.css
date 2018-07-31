@@ -1,0 +1,7 @@
+.cardWrapper {
+    width: 100%;
+}
+
+.cardWrapper > img {
+    width: 100%;
+}
